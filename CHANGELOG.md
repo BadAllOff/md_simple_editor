@@ -1,7 +1,8 @@
 
 #### [Current]
 
-
+#### v0.2.5
+ * [7cb4fa4](../../commit/7cb4fa4) - __(Shamil Badalloff)__ Moved from font-awesome-rails to more popular font-awesome-sass
 #### v0.1.8
  * [55adff2](../../commit/55adff2) - __(Ruben Espinosa)__ preview funcionality, bootstrap as css provider
  * [585b857](../../commit/585b857) - __(Ruben Espinosa)__ controllers
