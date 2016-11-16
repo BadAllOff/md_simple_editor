@@ -5,6 +5,12 @@ module MdSimpleEditor
         content_tag(:div, :id => "md-editor") do
           content_tag(:div, :class => "btn-toolbar", role: "toolbar") do
             content_tag(:div, :class => "btn-group") do
+              button_tag(:type => 'button', :class => "btn btn-default md_h2") do
+                content_tag(:strong, 'H2')
+              end +
+              button_tag(:type => 'button', :class => "btn btn-default md_h3") do
+                content_tag(:strong, 'H3')
+              end +
               button_tag(:type => 'button', :class => "btn btn-default md_h4") do
                 content_tag(:strong, 'H4')
               end +
@@ -47,7 +53,6 @@ module MdSimpleEditor
 	            end
             end
           end +
-          content_tag(:br) +
           content_tag(:div, :id => "md-text") do
             yield
           end +
